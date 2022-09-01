@@ -8,7 +8,6 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  
   email = "";
   pwd = "";
 
@@ -24,12 +23,11 @@ export class LoginComponent implements OnInit {
     for (let i=0; i<user.length; i++) {
       if (this.email == user[i].email && this.pwd == user[i].password) {
         this.router.navigate(['/account'])
-        
         userValid = true
       }
     }
-    if (userValid == false) {
-
+    if (userValid == false){
+      alert("Incorrect Email or Password!")
     }
   }
 

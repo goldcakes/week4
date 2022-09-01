@@ -5,7 +5,7 @@ import { AccountComponent } from './account/account.component';
 
 const routes: Routes = [
   {path: '', component:LoginComponent},
-  {path: 'account/', component:AccountComponent}
+  {path: 'account', component:AccountComponent}
 ];
 
 @NgModule({
