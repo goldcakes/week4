@@ -1,0 +1,5 @@
+[
+    {"username":"", "birthdate":"", "age":21, "email":"abc@test.com", "password":"123", "valid":false},
+    {"username":"", "birthdate":"", "age":33, "email":"def@test.com", "password":"456", "valid":false},
+    {"username":"", "birthdate":"", "age":25, "email":"ghi@test.com", "password":"789", "valid":true}
+]
